@@ -2,11 +2,11 @@
  
 This is a simple implementation of a regression problem using Forward Propagation. The code uses the numpy library to generate training data, and then trains a simple linear regression model using Forward Propagation.
 
-# Problem Statement
+# Aim
 
 The goal of this problem is to train a model to predict the value of a sine function given a set of input values. 
 
-#Implementation
+# Implementation
 
 The code starts by defining the target function as sin(x), which we want to predict. We then generate 500 random input values between -2pi and 2pi using the numpy library, and calculate the corresponding output values using the target function.
 
