@@ -1,4 +1,4 @@
-# Regression using Forward Propagation
+# Regression without using Backpropagation
 
 The goal of this implementation is to train a regression model to approximate a given function using an alternate approach to backpropagation.
 
