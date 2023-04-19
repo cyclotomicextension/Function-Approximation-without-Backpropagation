@@ -1,9 +1,8 @@
 # Regression using Forward Propagation
 
-# Aim:
 The goal of this implementation is to train a regression model to approximate a given function using an alternate approach to backpropagation.
 
-Function Approximation in Regression.ipynb:
+# Function Approximation in Regression.ipynb:
 The code starts by defining the target function, which we want to approximate. We then generate input values using the numpy library and calculate the corresponding output values using the target function.
 
 Next, we create positive and negative training sets by randomly selecting half of the training data points with positive output values, and half with negative output values. We then combine the positive and negative training sets to create our final training set.
@@ -14,7 +13,7 @@ In each iteration, we perform a forward pass to calculate the predicted output v
 
 We then perform a forward pass on the positive and negative training sets separately, and compare their mean output values. If the mean output value for the positive training set is greater than the mean output value for the negative training set, we update the weights using the gradient of the mean squared error with respect to the weights and the positive training set. Otherwise, we update the weights using the gradient of the mean squared error with respect to the weights and the negative training set.
 
-Function Approximation in Best Approach to approximate functions.ipynb:
+# Function Approximation in Best Approach to approximate functions.ipynb:
 The code starts by defining the target function, which we want to approximate. We then generate input values using the torch library and calculate the corresponding output values using the target function.
 
 Next, we create positive and negative training sets by randomly selecting half of the training data points with positive output values, and half with negative output values. We then combine the positive and negative training sets to create our final training set.
