@@ -27,4 +27,4 @@ We then calculate the true positive (tp), false positive (fp), and false negativ
 In each epoch, we also perform an alternate update to the model weights without backpropagation. We do this by using the gradient descent algorithm to update the weights, but instead of calculating the gradients of the loss with respect to the weights, we use a function of the predicted probabilities as the target value for the gradient descent. Specifically, we cube the predicted probabilities and use them as the target value. We also use a threshold of 0.5 to convert the probabilities to binary predictions.
 
 # Author: 
-This code is written by me and the documentation is by ChatGPT :p
+The code is written by me.
